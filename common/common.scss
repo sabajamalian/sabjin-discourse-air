@@ -367,8 +367,11 @@ html body #main-outlet {
         display: flex;
         justify-content: center;
         align-items: center;
-        a:not(.first-of-type) {
+        a:not(.first) {
           display: none;
+        }
+        a.first {
+          display: flex;
         }
       }
       .topic-list-data.posts {
