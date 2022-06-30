@@ -367,7 +367,7 @@ html body #main-outlet {
         display: flex;
         justify-content: center;
         align-items: center;
-        a:not(.latest) {
+        a:not(.first-child) {
           display: none;
         }
       }
