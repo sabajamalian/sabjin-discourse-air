@@ -367,10 +367,10 @@ html body #main-outlet {
         display: flex;
         justify-content: center;
         align-items: center;
-        a:not(.first) {
+        a:not(:first-child) {
           display: none;
         }
-        a.first {
+        a:first-child {
           display: flex;
         }
       }
