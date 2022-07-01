@@ -440,28 +440,28 @@ html body #main-outlet {
         height: 40px;
         border-radius: 8px;
       }
-      a.latest {
-        .avatar {
-          margin-right: 0;
-        }
-      }
-      a:not(.latest) {
-        margin-left: -22px;
-        .avatar {
-          border: 3px solid var(--secondary);
-        }
-      }
-      a:first-child {
-        .avatar {
-          margin-right: 0;
-        }
-      }
-      a:not(:first-child) {
-        margin-left: -22px;
-        .avatar {
-          border: 3px solid var(--secondary);
-        }
-      }
+      // a.latest {
+      //   .avatar {
+      //     margin-right: 0;
+      //   }
+      // }
+      // a:not(.latest) {
+      //   margin-left: -22px;
+      //   .avatar {
+      //     border: 3px solid var(--secondary);
+      //   }
+      // }
+      // a:first-child {
+      //   .avatar {
+      //     margin-right: 0;
+      //   }
+      // }
+      // a:not(:first-child) {
+      //   margin-left: -22px;
+      //   .avatar {
+      //     border: 3px solid var(--secondary);
+      //   }
+      // }
     }
     .posts-map,
     .num.age.activity {
