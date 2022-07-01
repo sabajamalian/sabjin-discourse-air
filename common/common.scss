@@ -451,6 +451,17 @@ html body #main-outlet {
           border: 3px solid var(--secondary);
         }
       }
+      a:first-child {
+        .avatar {
+          margin-right: 0;
+        }
+      }
+      a:not(:first-child) {
+        margin-left: -22px;
+        .avatar {
+          border: 3px solid var(--secondary);
+        }
+      }
     }
     .posts-map,
     .num.age.activity {
